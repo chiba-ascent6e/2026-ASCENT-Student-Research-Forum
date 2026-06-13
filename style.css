@@ -476,15 +476,7 @@ li {
 }
 
 .motion-line {
-  position: absolute;
-  right: 4%;
-  bottom: 22%;
-  width: 40%;
-  height: 1px;
-  background: linear-gradient(90deg, transparent, rgba(15, 118, 110, 0.45), transparent);
-  opacity: 0.55;
-  transform: rotate(-9deg);
-  animation: line-drift 8s ease-in-out infinite;
+  display: none;
 }
 
 .hero-inner {
