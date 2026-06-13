@@ -634,7 +634,7 @@ li {
 .participation-layout,
 .form-actions,
 .info-panel {
-  max-width: calc(var(--content-max) - 132px);
+  max-width: 100%;
 }
 
 .program-grid {
