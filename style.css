@@ -688,7 +688,7 @@ li {
 .program-illustration {
   display: block;
   width: 100%;
-  height: 200px;
+  height: 280px;
   object-fit: contain;
   object-position: center;
 }
