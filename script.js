@@ -109,8 +109,8 @@
       const xRatio = (event.clientX - rect.left) / rect.width;
       const yRatio = (event.clientY - rect.top) / rect.height;
 
-      targetX = (xRatio - 0.5) * -8;
-      targetY = (yRatio - 0.5) * -6;
+      targetX = (xRatio - 0.5) * -20;
+      targetY = (yRatio - 0.5) * -14;
 
       heroHome.style.setProperty('--spot-x', `${(xRatio * 100).toFixed(1)}%`);
       heroHome.style.setProperty('--spot-y', `${(yRatio * 100).toFixed(1)}%`);
