@@ -528,6 +528,10 @@ li {
   line-height: 1.72;
 }
 
+.hero-year {
+  color: var(--color-teal);
+}
+
 .event-info {
   display: grid;
   max-width: 760px;
