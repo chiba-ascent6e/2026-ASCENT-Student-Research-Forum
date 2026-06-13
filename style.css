@@ -187,23 +187,23 @@ li {
 
 .brand {
   display: block;
-  margin-bottom: 28px;
+  margin-bottom: 16px;
 }
 
 .brand-logo {
-  width: min(100%, 200px);
+  width: min(100%, 260px);
   margin: 0 auto;
 }
 
 .side-nav {
   display: flex;
   flex-direction: column;
-  gap: 3px;
+  gap: 0;
 }
 
 .side-nav a {
   display: block;
-  padding: 10px 0;
+  padding: 7px 0;
   color: var(--color-navy);
   font-size: 17px;
   font-weight: 800;
@@ -219,48 +219,44 @@ li {
   content: "— ";
 }
 
-.nav-group {
-  margin: 2px 0;
+/* 一级导航之间的分隔线 */
+.side-nav > a,
+.side-nav .nav-parent {
+  position: relative;
 }
 
+.side-nav > a::after,
+.side-nav .nav-parent::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  margin-top: 8px;
+  background: rgba(18, 33, 58, 0.12);
+}
+
+.nav-group {
+  margin: 0;
+}
+
+/* PROGRAM 下方的二级导航 */
 .side-nav .sub-nav {
-  padding-top: 3px;
-  padding-bottom: 3px;
+  padding-top: 2px;
+  padding-bottom: 2px;
   padding-left: 24px;
   color: #7b8995;
   font-size: 14px;
-  font-weight: 400;
-  letter-spacing: 0.06em;
+  font-weight: 300;
+  letter-spacing: 0.05em;
 }
 
 .side-nav .sub-nav::before {
   content: "— ";
 }
 
-.sidebar-links {
-  margin-top: 30px;
-  padding-top: 22px;
-  border-top: 1px solid var(--color-line);
-}
-
-.muted-link {
-  display: block;
-  margin-bottom: 14px;
-  color: var(--color-navy);
-  font-size: 13px;
-  font-weight: 700;
-  line-height: 1.4;
-  letter-spacing: 0.07em;
-}
-
-.muted-link span {
-  color: var(--color-muted);
-  font-weight: 400;
-  letter-spacing: 0;
-}
-
+/* 底部项目 logo 和说明文字 */
 .sidebar-footer {
-  margin: 24px 0 0;
+  margin: 26px 0 0;
   color: var(--color-muted);
   font-size: 11px;
   line-height: 1.6;
