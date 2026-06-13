@@ -732,6 +732,27 @@ li {
   margin-top: auto;
 }
 
+.about-report-pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 12px;
+  padding: 10px 16px;
+  border: 1px solid rgba(15, 138, 135, 0.24);
+  border-radius: 999px;
+  color: var(--color-teal);
+  background: rgba(234, 244, 244, 0.55);
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+
+.about-report-pill:hover {
+  opacity: 1;
+  background: rgba(234, 244, 244, 0.9);
+  transform: translateY(-1px);
+}
+
 .details-grid {
   grid-template-columns: repeat(2, 1fr);
   gap: 22px;
