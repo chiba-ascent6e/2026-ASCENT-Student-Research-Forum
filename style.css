@@ -257,7 +257,7 @@ li {
 
 .side-nav a {
   display: block;
-  padding: 7px 0;
+  padding: 4px 0;
   color: var(--color-navy);
   font-size: 17px;
   font-weight: 800;
@@ -289,17 +289,16 @@ li {
   display: block;
   width: 100%;
   height: 1px;
-  margin-top: 8px;
+  margin-top: 5px;
   background: rgba(18, 33, 58, 0.12);
 }
 
-
 .side-nav .sub-nav {
-  padding-top: 2px;
-  padding-bottom: 2px;
+  padding-top: 1px;
+  padding-bottom: 1px;
   padding-left: 24px;
   color: #7b8995;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 500;
   letter-spacing: 0.05em;
 }
@@ -316,9 +315,9 @@ li {
 }
 
 .sidebar-footer-logo {
-  width: 150px;
+  width: 115px;
   max-width: 100%;
-  margin: 0 0 12px;
+  margin: 0 0 8px;
 }
 
 .menu-toggle {
@@ -710,7 +709,7 @@ li {
   border-left: 3px solid var(--color-teal);
   border-radius: var(--radius-sm);
   color: var(--color-navy);
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .participation-layout {
@@ -838,8 +837,15 @@ li {
   border-radius: var(--radius-sm);
   color: var(--color-navy);
   background: #f8fafc;
+  font-weight: 400;
 }
 
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: #6f7a86;
+  font-weight: 300;
+  letter-spacing: 0;
+}
 .contact-form textarea {
   min-height: 180px;
   resize: vertical;
