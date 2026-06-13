@@ -452,7 +452,7 @@ li {
   inset: 0;
   z-index: 1;
   background:
-    radial-gradient(circle at var(--spot-x) var(--spot-y), rgba(255, 255, 255, 0.16), transparent 22%),
+    radial-gradient(circle at var(--spot-x) var(--spot-y), rgba(255, 255, 255, 0.28), transparent 30%),
     linear-gradient(90deg, rgba(248, 250, 252, 0.93) 0%, rgba(248, 250, 252, 0.86) 36%, rgba(248, 250, 252, 0.60) 63%, rgba(248, 250, 252, 0.20) 100%),
     radial-gradient(circle at 82% 18%, rgba(20, 184, 166, 0.14), transparent 36%);
   animation: fade-in 0.9s ease-out both;
