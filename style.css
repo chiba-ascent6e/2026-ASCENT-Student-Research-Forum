@@ -329,6 +329,14 @@ li {
   margin: 0 0 8px;
 }
 
+.sidebar-footer a {
+  display: inline-block;
+}
+
+.sidebar-footer a:hover {
+  opacity: 0.82;
+}
+
 .menu-toggle {
   display: none;
 }
