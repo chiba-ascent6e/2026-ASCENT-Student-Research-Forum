@@ -520,12 +520,12 @@ li {
 }
 
 .hero-subtitle {
-  max-width: 650px;
-  margin: 0 0 28px;
+  max-width: 720px;
+  margin: 0 0 30px;
   color: #394c62;
-  font-size: clamp(1rem, 1.5vw, 1.25rem);
-  font-weight: 400;
-  line-height: 1.72;
+  font-size: clamp(1.15rem, 1.7vw, 1.45rem);
+  font-weight: 320;
+  line-height: 1.65;
 }
 
 .hero-year {
