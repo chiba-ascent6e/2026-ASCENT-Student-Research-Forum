@@ -225,7 +225,7 @@ li {
 .section {
   padding-top: var(--section-y);
   padding-bottom: var(--section-y);
-  scroll-margin-top: 20px;
+  scroll-margin-top: 0;
 }
 
 .section-soft {
